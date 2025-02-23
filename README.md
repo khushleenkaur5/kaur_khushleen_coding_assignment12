@@ -4,9 +4,13 @@ This is a React-based UI component library.
 ## Project Setup
 
 ### Step 1: Create a React App and Storybook steup
-I created a react app using the commond `npx create-react-app ui-garden` and then i initialized the storybook with `npx sb init`
+I created a react app using the commond `npx create-react-app ui-garden --template typescript` and then i initialized the storybook with `npx sb init`
 
-### Step 2: Created components 
+### Step 2: Dependecies required for the project
+npm install styled-components @types/styled-components --save
+npm install --save-dev @testing-library/react @testing-library/jest-dom
+
+### Step 3: Created components 
 I created different components like button , label, Table , Image in which i had displayed some mock data and inside the components i created five different files which has names like
 `Component_name.tsx
 Component_name.stories.tsx 
@@ -15,14 +19,15 @@ Component_name.tests.tsx
 Index.ts `
 
 
-### Step 3: Build docker Image
+### Step 4: Build docker Image
 I build the docker image by running this command
 `docker build -t kaur_khushleen_coding_assignment12 .`
 
-### Step 4: Docker Container
+### Step 5: Docker Container
 I made the docker container and port them on 8083 port using `docker run -p 8083:80 --name kaur_khushleen_ui_garden kaur_khushleen_coding_assignment12
 `
 ## We can run the project by visting http://localhost:8083.
+
 
 
 # Getting Started with Create React App
