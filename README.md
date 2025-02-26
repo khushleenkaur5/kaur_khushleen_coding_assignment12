@@ -7,6 +7,8 @@ This is a React-based UI component library.
 I created a react app using the commond `npx create-react-app ui-garden --template typescript` and then i initialized the storybook with `npx sb init`
 
 ### Step 2: Dependecies required for the project
+npx sb init
+npm install @storybook/react --save-dev
 npm install styled-components @types/styled-components --save
 npm install --save-dev @testing-library/react @testing-library/jest-dom
 
